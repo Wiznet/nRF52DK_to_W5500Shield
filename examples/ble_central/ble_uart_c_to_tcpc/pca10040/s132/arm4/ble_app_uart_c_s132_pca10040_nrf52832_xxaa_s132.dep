@@ -1,0 +1,852 @@
+Dependencies for Project 'ble_app_uart_c_s132_pca10040', Target 'nrf52832_xxaa_s132': (DO NOT MODIFY !)
+F (..\..\..\main.c)(0x57EC7011)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\main.o" --omf_browse ".\_build\main.crf" --depend ".\_build\main.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\uart\app_uart.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_soc.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_svc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error_soc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_nvic.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\trace\app_trace.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\ble\ble_db_discovery\ble_db_discovery.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gattc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gatt.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_types.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_ranges.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gap.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_l2cap.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_err.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gatts.h)(0x56B83822)
+I (..\..\..\..\..\..\components\ble\common\ble_srv_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\ble\common\ble_gatt_db.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\timer\app_timer.h)(0x56E137D0)
+I (..\..\..\..\..\bsp\bsp.h)(0x56E137D0)
+I (..\..\..\..\..\bsp\boards.h)(0x5770A554)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h)(0x56E137D0)
+I (..\..\..\..\..\bsp\pca10040.h)(0x57708E50)
+I (..\..\..\..\..\..\components\libraries\button\app_button.h)(0x56E137D0)
+I (..\..\..\..\..\bsp\bsp_btn_ble.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_hci.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\common\softdevice_handler\softdevice_handler.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0C474)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_sdm.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error_sdm.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\common\softdevice_handler\ble_stack_handler_types.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\common\softdevice_handler\ant_stack_handler_types.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\common\softdevice_handler\app_ram_base.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\ble\common\ble_advdata.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\ble\ble_services\ble_nus_c\ble_nus_c.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\drivers_nrf\spi_master\nrf_drv_spi.h)(0x56E137D0)
+I (..\..\..\config\ble_app_uart_c_s132_pca10040\nrf_drv_config.h)(0x576CCB0C)
+I (..\..\..\..\..\..\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_spi.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0C46E)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_spim.h)(0x56E137D0)
+I (..\..\..\..\..\..\external\Wiznet\user_ethernet.h)(0x57734D5E)
+I (..\..\..\..\..\..\external\Wiznet\user_spi.h)(0x57734D2A)
+I (..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback\loopback.h)(0x56516E8E)
+I (..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500\w5500.h)(0x56516E8E)
+I (..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\wizchip_conf.h)(0x56516E8E)
+I (..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500/w5500.h)(0x56516E8E)
+I (..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\socket.h)(0x56516E8E)
+I (..\..\..\user_ble\user_ble.h)(0x5774CD5E)
+I (..\..\..\user_uart\user_uart.h)(0x57734316)
+F (..\..\..\..\..\bsp\bsp.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\bsp.o" --omf_browse ".\_build\bsp.crf" --depend ".\_build\bsp.d")
+I (..\..\..\..\..\bsp\bsp.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\bsp\boards.h)(0x5770A554)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\bsp\pca10040.h)(0x57708E50)
+I (..\..\..\..\..\..\components\libraries\button\app_button.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\uart\app_uart.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_soc.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_svc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error_soc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_nvic.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0C46E)
+I (..\..\..\..\..\..\components\libraries\timer\app_timer.h)(0x56E137D0)
+F (..\..\..\..\..\bsp\bsp_btn_ble.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\bsp_btn_ble.o" --omf_browse ".\_build\bsp_btn_ble.crf" --depend ".\_build\bsp_btn_ble.d")
+I (..\..\..\..\..\bsp\bsp_btn_ble.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_ranges.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_types.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gap.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_svc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_l2cap.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_err.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gatt.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gattc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gatts.h)(0x56B83822)
+I (..\..\..\..\..\bsp\bsp.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\bsp\boards.h)(0x5770A554)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\bsp\pca10040.h)(0x57708E50)
+I (..\..\..\..\..\..\components\libraries\button\app_button.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\uart\app_uart.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_soc.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error_soc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_nvic.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0C46E)
+F (..\..\..\..\..\..\components\toolchain\arm\arm_startup_nrf52.s)(0x56E137DC)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include --pd "__HEAP_SIZE SETA 0" --pd "BLE_STACK_SUPPORT_REQD SETA 1" --pd "S132 SETA 1" --pd "BOARD_PCA10040 SETA 1" --pd "NRF52_PAN_12 SETA 1" --pd "NRF52_PAN_15 SETA 1" --pd "NRF52_PAN_20 SETA 1" --pd "NRF52_PAN_30 SETA 1" --pd "NRF52_PAN_31 SETA 1" --pd "NRF52_PAN_36 SETA 1" --pd "NRF52_PAN_51 SETA 1" --pd "NRF52_PAN_53 SETA 1" --pd "NRF52_PAN_54 SETA 1" --pd "NRF52_PAN_55 SETA 1" --pd "NRF52_PAN_58 SETA 1" --pd "NRF52_PAN_62 SETA 1" --pd "NRF52_PAN_63 SETA 1" --pd "NRF52_PAN_64 SETA 1" --pd "CONFIG_GPIO_AS_PINRESET SETA 1" --pd "BSP_UART_SUPPORT SETA 1" --pd "SOFTDEVICE_PRESENT SETA 1" --pd "NRF52 SETA 1" --pd "SWI_DISABLE0 SETA 1" --pd "NRF_LOG_USES_UART SETA 1" --list ".\_build\arm_startup_nrf52.lst" --xref -o ".\_build\arm_startup_nrf52.o" --depend ".\_build\arm_startup_nrf52.d")
+F (..\..\..\..\..\..\components\toolchain\system_nrf52.c)(0x56E137DC)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\system_nrf52.o" --omf_browse ".\_build\system_nrf52.crf" --depend ".\_build\system_nrf52.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+F (..\..\..\Abstract.txt)(0x56E137F8)()
+F (..\..\..\license.txt)(0x56E137F8)()
+F (..\..\..\..\..\..\components\ble\common\ble_advdata.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\ble_advdata.o" --omf_browse ".\_build\ble_advdata.crf" --depend ".\_build\ble_advdata.d")
+I (..\..\..\..\..\..\components\ble\common\ble_advdata.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_ranges.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_types.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gap.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_svc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_l2cap.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_err.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gatt.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gattc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gatts.h)(0x56B83822)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\ble\common\ble_srv_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+F (..\..\..\..\..\..\components\ble\common\ble_conn_params.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\ble_conn_params.o" --omf_browse ".\_build\ble_conn_params.crf" --depend ".\_build\ble_conn_params.d")
+I (..\..\..\..\..\..\components\ble\common\ble_conn_params.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_ranges.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_types.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gap.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_svc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_l2cap.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_err.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gatt.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gattc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gatts.h)(0x56B83822)
+I (..\..\..\..\..\..\components\ble\common\ble_srv_common.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0C474)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_hci.h)(0x56B83822)
+I (..\..\..\..\..\..\components\libraries\timer\app_timer.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x56E137D0)
+F (..\..\..\..\..\..\components\ble\ble_db_discovery\ble_db_discovery.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\ble_db_discovery.o" --omf_browse ".\_build\ble_db_discovery.crf" --depend ".\_build\ble_db_discovery.d")
+I (..\..\..\..\..\..\components\ble\ble_db_discovery\ble_db_discovery.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gattc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gatt.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_types.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_ranges.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_svc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gap.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_l2cap.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_err.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gatts.h)(0x56B83822)
+I (..\..\..\..\..\..\components\ble\common\ble_srv_common.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\ble\common\ble_gatt_db.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0C474)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\sdk_macros.h)(0x56E137D0)
+F (..\..\..\..\..\..\components\ble\ble_services\ble_nus_c\ble_nus_c.c)(0x57738320)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\ble_nus_c.o" --omf_browse ".\_build\ble_nus_c.crf" --depend ".\_build\ble_nus_c.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0C474)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_ranges.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_types.h)(0x56B83822)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gap.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_svc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_l2cap.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_err.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gatt.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gattc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gatts.h)(0x56B83822)
+I (..\..\..\..\..\..\components\ble\ble_services\ble_nus_c\ble_nus_c.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\..\components\ble\ble_db_discovery\ble_db_discovery.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\ble\common\ble_srv_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\ble\common\ble_gatt_db.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x56E137D0)
+F (..\..\..\..\..\..\components\ble\common\ble_srv_common.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\ble_srv_common.o" --omf_browse ".\_build\ble_srv_common.crf" --depend ".\_build\ble_srv_common.d")
+I (..\..\..\..\..\..\components\ble\common\ble_srv_common.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_types.h)(0x56B83822)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_ranges.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gap.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_svc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_l2cap.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_err.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gatt.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gattc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gatts.h)(0x56B83822)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x56E137D0)
+F (..\..\..\..\..\..\components\libraries\uart\app_uart_fifo.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\app_uart_fifo.o" --omf_browse ".\_build\app_uart_fifo.crf" --depend ".\_build\app_uart_fifo.d")
+I (..\..\..\..\..\..\components\libraries\uart\app_uart.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_soc.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_svc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error_soc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_nvic.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\fifo\app_fifo.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0C474)
+I (..\..\..\..\..\..\components\drivers_nrf\uart\nrf_drv_uart.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_uart.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0C46E)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_uarte.h)(0x56E137D0)
+I (..\..\..\config\ble_app_uart_c_s132_pca10040\nrf_drv_config.h)(0x576CCB0C)
+I (..\..\..\..\..\..\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x56E137D0)
+F (..\..\..\..\..\..\components\drivers_nrf\delay\nrf_delay.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\nrf_delay.o" --omf_browse ".\_build\nrf_delay.crf" --depend ".\_build\nrf_delay.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\drivers_nrf\delay\nrf_delay.h)(0x56E137D0)
+F (..\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\nrf_drv_common.o" --omf_browse ".\_build\nrf_drv_common.crf" --depend ".\_build\nrf_drv_common.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0C46E)
+I (..\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\config\ble_app_uart_c_s132_pca10040\nrf_drv_config.h)(0x576CCB0C)
+I (..\..\..\..\..\..\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_soc.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_svc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error_soc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_nvic.h)(0x56C4258E)
+F (..\..\..\..\..\..\components\drivers_nrf\gpiote\nrf_drv_gpiote.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\nrf_drv_gpiote.o" --omf_browse ".\_build\nrf_drv_gpiote.crf" --depend ".\_build\nrf_drv_gpiote.d")
+I (..\..\..\..\..\..\components\drivers_nrf\gpiote\nrf_drv_gpiote.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpiote.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0C46E)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h)(0x56E137D0)
+I (..\..\..\config\ble_app_uart_c_s132_pca10040\nrf_drv_config.h)(0x576CCB0C)
+I (..\..\..\..\..\..\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_soc.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_svc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error_soc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_nvic.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x56E137D0)
+F (..\..\..\..\..\..\components\drivers_nrf\uart\nrf_drv_uart.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\nrf_drv_uart.o" --omf_browse ".\_build\nrf_drv_uart.crf" --depend ".\_build\nrf_drv_uart.d")
+I (..\..\..\..\..\..\components\drivers_nrf\uart\nrf_drv_uart.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_uart.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0C46E)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_uarte.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\config\ble_app_uart_c_s132_pca10040\nrf_drv_config.h)(0x576CCB0C)
+I (..\..\..\..\..\..\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_soc.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_svc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error_soc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_nvic.h)(0x56C4258E)
+F (..\..\..\..\..\..\components\libraries\button\app_button.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\app_button.o" --omf_browse ".\_build\app_button.crf" --depend ".\_build\app_button.d")
+I (..\..\..\..\..\..\components\libraries\button\app_button.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\timer\app_timer.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\drivers_nrf\gpiote\nrf_drv_gpiote.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpiote.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0C46E)
+I (..\..\..\config\ble_app_uart_c_s132_pca10040\nrf_drv_config.h)(0x576CCB0C)
+I (..\..\..\..\..\..\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x56E137D0)
+F (..\..\..\..\..\..\components\libraries\util\app_error.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\app_error.o" --omf_browse ".\_build\app_error.crf" --depend ".\_build\app_error.d")
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x56E137D0)
+F (..\..\..\..\..\..\components\libraries\util\app_error_weak.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\app_error_weak.o" --omf_browse ".\_build\app_error_weak.crf" --depend ".\_build\app_error_weak.d")
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x56E137D0)
+F (..\..\..\..\..\..\components\libraries\fifo\app_fifo.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\app_fifo.o" --omf_browse ".\_build\app_fifo.crf" --depend ".\_build\app_fifo.d")
+I (..\..\..\..\..\..\components\libraries\fifo\app_fifo.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0C474)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+F (..\..\..\..\..\..\components\libraries\timer\app_timer.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\app_timer.o" --omf_browse ".\_build\app_timer.crf" --depend ".\_build\app_timer.d")
+I (..\..\..\..\..\..\components\libraries\timer\app_timer.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0C474)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_soc.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_svc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error_soc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\drivers_nrf\delay\nrf_delay.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_nvic.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\sdk_macros.h)(0x56E137D0)
+F (..\..\..\..\..\..\components\libraries\trace\app_trace.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\app_trace.o" --omf_browse ".\_build\app_trace.crf" --depend ".\_build\app_trace.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0C476)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+F (..\..\..\..\..\..\components\libraries\util\app_util_platform.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\app_util_platform.o" --omf_browse ".\_build\app_util_platform.crf" --depend ".\_build\app_util_platform.d")
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_soc.h)(0x56C4258E)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_svc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error_soc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_nvic.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x56E137D0)
+F (..\..\..\..\..\..\components\libraries\util\nrf_assert.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\nrf_assert.o" --omf_browse ".\_build\nrf_assert.crf" --depend ".\_build\nrf_assert.d")
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x56E137D0)
+F (..\..\..\..\..\..\components\libraries\util\nrf_log.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\nrf_log.o" --omf_browse ".\_build\nrf_log.crf" --depend ".\_build\nrf_log.d")
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0C476)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\uart\app_uart.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_soc.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_svc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error_soc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_nvic.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x56E137D0)
+I (..\..\..\..\..\bsp\bsp.h)(0x56E137D0)
+I (..\..\..\..\..\bsp\boards.h)(0x5770A554)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h)(0x56E137D0)
+I (..\..\..\..\..\bsp\pca10040.h)(0x57708E50)
+I (..\..\..\..\..\..\components\libraries\button\app_button.h)(0x56E137D0)
+F (..\..\..\..\..\..\components\libraries\uart\retarget.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\retarget.o" --omf_browse ".\_build\retarget.crf" --depend ".\_build\retarget.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (..\..\..\..\..\..\components\libraries\uart\app_uart.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_soc.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_svc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error_soc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_nvic.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x56E137D0)
+F (..\..\..\..\..\..\external\segger_rtt\RTT_Syscalls_KEIL.c)(0x56E137D2)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\rtt_syscalls_keil.o" --omf_browse ".\_build\rtt_syscalls_keil.crf" --depend ".\_build\rtt_syscalls_keil.d")
+F (..\..\..\..\..\..\external\segger_rtt\SEGGER_RTT.c)(0x56E137D2)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\segger_rtt.o" --omf_browse ".\_build\segger_rtt.crf" --depend ".\_build\segger_rtt.d")
+I (..\..\..\..\..\..\external\segger_rtt\SEGGER_RTT.h)(0x56E137D2)
+I (..\..\..\..\..\..\external\segger_rtt\SEGGER_RTT_Conf.h)(0x56E137D2)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0C476)
+F (..\..\..\..\..\..\external\segger_rtt\SEGGER_RTT_printf.c)(0x56E137D2)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\segger_rtt_printf.o" --omf_browse ".\_build\segger_rtt_printf.crf" --depend ".\_build\segger_rtt_printf.d")
+F (..\..\..\..\..\..\components\softdevice\s132\doc\s132_nrf52_2.0.0_licence_agreement.txt)(0x56C5253C)()
+F (..\..\..\..\..\..\components\softdevice\common\softdevice_handler\softdevice_handler.c)(0x56E137D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\softdevice_handler.o" --omf_browse ".\_build\softdevice_handler.crf" --depend ".\_build\softdevice_handler.d")
+I (..\..\..\..\..\..\components\softdevice\common\softdevice_handler\softdevice_handler.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0C474)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_sdm.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_svc.h)(0x56B83822)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0C474)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52.h)(0x56E137DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50061B72)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50594E7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA864C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F582ED6)
+I (..\..\..\..\..\..\components\toolchain\system_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_bitfields.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf51_to_nrf52.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\device\nrf52_name_change.h)(0x56E137E0)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x56E137DC)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_soc.h)(0x56C4258E)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB0C478)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error_soc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error_sdm.h)(0x56B83822)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\nrf_log.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0C46C)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\common\softdevice_handler\ble_stack_handler_types.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_ranges.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_types.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gap.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_l2cap.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_err.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gatt.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gattc.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\ble_gatts.h)(0x56B83822)
+I (..\..\..\..\..\..\components\softdevice\common\softdevice_handler\ant_stack_handler_types.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\common\softdevice_handler\app_ram_base.h)(0x56E137D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0C476)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\softdevice\s132\headers\nrf_nvic.h)(0x56C4258E)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x56E137D0)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x56E137D0)
+I (..\..\..\config\ble_app_uart_c_s132_pca10040\nrf_drv_config.h)(0x576CCB0C)
+I (..\..\..\..\..\..\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x56E137D0)
+F (..\..\..\user_ble\user_ble.c)(0x5774CDDA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\user_ble.o" --omf_browse ".\_build\user_ble.crf" --depend ".\_build\user_ble.d")
+F (..\..\..\user_uart\user_uart.c)(0x57732832)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\user_uart.o" --omf_browse ".\_build\user_uart.crf" --depend ".\_build\user_uart.d")
+F (..\..\..\..\..\..\external\Wiznet\user_ethernet.c)(0x57E9BF7A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\user_ethernet.o" --omf_browse ".\_build\user_ethernet.crf" --depend ".\_build\user_ethernet.d")
+F (..\..\..\..\..\..\external\Wiznet\user_spi.c)(0x5779AC54)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\user_spi.o" --omf_browse ".\_build\user_spi.crf" --depend ".\_build\user_spi.d")
+F (..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback\loopback.c)(0x5775FC46)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\loopback.o" --omf_browse ".\_build\loopback.crf" --depend ".\_build\loopback.d")
+F (..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\socket.c)(0x5773755E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\socket.o" --omf_browse ".\_build\socket.crf" --depend ".\_build\socket.d")
+F (..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\wizchip_conf.c)(0x56516E8E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\wizchip_conf.o" --omf_browse ".\_build\wizchip_conf.crf" --depend ".\_build\wizchip_conf.d")
+F (..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500\w5500.c)(0x56516E8E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\ble_app_uart_c_s132_pca10040 -I..\..\..\config -I..\..\..\..\..\..\components\ble\ble_db_discovery -I..\..\..\..\..\..\components\ble\ble_services\ble_nus_c -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\config -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\button -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\libraries\trace -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\..\..\..\..\..\components\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\bsp -I..\..\..\..\..\..\external\segger_rtt -I..\..\..\..\..\..\external\Wiznet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Ethernet\W5500 -I..\..\..\..\..\..\external\Wiznet\ioLibrary_Driver\Application\loopback -I..\..\..\..\..\..\components\drivers_nrf\spi_master -I..\..\..\user_ble -I..\..\..\user_uart --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -D__HEAP_SIZE="0" -DBLE_STACK_SUPPORT_REQD -DS132 -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DCONFIG_GPIO_AS_PINRESET -DBSP_UART_SUPPORT -DSOFTDEVICE_PRESENT -DNRF52 -DSWI_DISABLE0 -DNRF_LOG_USES_UART="1" -o ".\_build\w5500.o" --omf_browse ".\_build\w5500.crf" --depend ".\_build\w5500.d")

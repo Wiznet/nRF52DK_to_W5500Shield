@@ -1,0 +1,20 @@
+---- port Matches (23 in 0 files) ----
+Loopback.c (d:\project\ble_to_ethernet\fw\nrf5_sdk_11.0.0_89a8197\iolibrary_driver\application\loopback):int32_t loopback_tcps(uint8_t sn, uint8_t* buf, uint16_t port)
+Loopback.c (d:\project\ble_to_ethernet\fw\nrf5_sdk_11.0.0_89a8197\iolibrary_driver\application\loopback):   uint16_t destport;
+Loopback.c (d:\project\ble_to_ethernet\fw\nrf5_sdk_11.0.0_89a8197\iolibrary_driver\application\loopback):			destport = getSn_DPORT(sn);
+Loopback.c (d:\project\ble_to_ethernet\fw\nrf5_sdk_11.0.0_89a8197\iolibrary_driver\application\loopback):			printf("%d:Connected - %d.%d.%d.%d : %d\r\n",sn, destip[0], destip[1], destip[2], destip[3], destport);
+Loopback.c (d:\project\ble_to_ethernet\fw\nrf5_sdk_11.0.0_89a8197\iolibrary_driver\application\loopback):    	 printf("%d:Listen, TCP server loopback, port [%d]\r\n", sn, port);
+Loopback.c (d:\project\ble_to_ethernet\fw\nrf5_sdk_11.0.0_89a8197\iolibrary_driver\application\loopback):         if((ret = socket(sn, Sn_MR_TCP, port, 0x00)) != sn) return ret;
+Loopback.c (d:\project\ble_to_ethernet\fw\nrf5_sdk_11.0.0_89a8197\iolibrary_driver\application\loopback):int32_t loopback_tcpc(uint8_t sn, uint8_t* buf, uint8_t* destip, uint16_t destport)
+Loopback.c (d:\project\ble_to_ethernet\fw\nrf5_sdk_11.0.0_89a8197\iolibrary_driver\application\loopback):   //	uint16_t destport = 	5000;
+Loopback.c (d:\project\ble_to_ethernet\fw\nrf5_sdk_11.0.0_89a8197\iolibrary_driver\application\loopback):   uint16_t any_port = 	50000;
+Loopback.c (d:\project\ble_to_ethernet\fw\nrf5_sdk_11.0.0_89a8197\iolibrary_driver\application\loopback):			printf("%d:Connected to - %d.%d.%d.%d : %d\r\n",sn, destip[0], destip[1], destip[2], destip[3], destport);
+Loopback.c (d:\project\ble_to_ethernet\fw\nrf5_sdk_11.0.0_89a8197\iolibrary_driver\application\loopback):    	 printf("%d:Try to connect to the %d.%d.%d.%d : %d\r\n", sn, destip[0], destip[1], destip[2], destip[3], destport);
+Loopback.c (d:\project\ble_to_ethernet\fw\nrf5_sdk_11.0.0_89a8197\iolibrary_driver\application\loopback):    	 if( (ret = connect(sn, destip, destport)) != SOCK_OK) return ret;	//	Try to TCP connect to the TCP server (destination)
+Loopback.c (d:\project\ble_to_ethernet\fw\nrf5_sdk_11.0.0_89a8197\iolibrary_driver\application\loopback):    	  if((ret=socket(sn, Sn_MR_TCP, any_port++, 0x00)) != sn) return ret; // TCP socket open with 'any_port' port number
+Loopback.c (d:\project\ble_to_ethernet\fw\nrf5_sdk_11.0.0_89a8197\iolibrary_driver\application\loopback):int32_t loopback_udps(uint8_t sn, uint8_t* buf, uint16_t port)
+Loopback.c (d:\project\ble_to_ethernet\fw\nrf5_sdk_11.0.0_89a8197\iolibrary_driver\application\loopback):   uint16_t destport;
+Loopback.c (d:\project\ble_to_ethernet\fw\nrf5_sdk_11.0.0_89a8197\iolibrary_driver\application\loopback):            ret = recvfrom(sn, buf, size, destip, (uint16_t*)&destport);
+Loopback.c (d:\project\ble_to_ethernet\fw\nrf5_sdk_11.0.0_89a8197\iolibrary_driver\application\loopback):               ret = sendto(sn, buf+sentsize, size-sentsize, destip, destport);
+Loopback.c (d:\project\ble_to_ethernet\fw\nrf5_sdk_11.0.0_89a8197\iolibrary_driver\application\loopback):         if((ret = socket(sn, Sn_MR_UDP, port, 0x00)) != sn)
+Loopback.c (d:\project\ble_to_ethernet\fw\nrf5_sdk_11.0.0_89a8197\iolibrary_driver\application\loopback):         printf("%d:Opened, UDP loopback, port [%d]\r\n", sn, port);
