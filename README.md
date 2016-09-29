@@ -7,6 +7,10 @@
 
 Using WIZnet TCP/IP Ethernet chip W5500 and the Nordic BLE SoC nRF52832 implemented the BLE to Ethernet. BLE Central/Peripheral communicate using a UART Nordic Service (NUS) Profile. And BLE Central and W5500 communicate with SPI. W5500 also operates as a TCP Client, TCP Server to communicate with the LAN (through the line). The purpose of this Application Note is to build a low power IoT node environment. 
 
+## H/W Setting
+
+![H/W Setting](http://wizwiki.net/wiki/lib/exe/fetch.php?media=osh:cookie:hw_setting.jpg "H/W Setting")
+
 ## Testing
 
 ### BLE Stack (SoftDevice) Writing
