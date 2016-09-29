@@ -36,4 +36,6 @@ Input from the WIZNET PCA10040 Terminal can see that is sent to the TCP Server.
 ![Data Input1](http://wizwiki.net/wiki/lib/exe/fetch.php?media=osh:cookie:3-7_bte_testing.jpg "Data Input1")
 ![Data Input2](http://wizwiki.net/wiki/lib/exe/fetch.php?media=osh:cookie:3-8_bte_testing.jpg "Data Input2")
 
-### Please Refer to http://wizwiki.net/wiki/doku.php?id=oshw_using_wiznet:bletoethernet
+### More informaion 
+http://wizwiki.net/wiki/doku.php?id=oshw_using_wiznet:bletoethernet
+
