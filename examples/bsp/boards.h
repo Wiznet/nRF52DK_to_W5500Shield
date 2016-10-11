@@ -40,8 +40,10 @@
   #include "n5_starterkit.h"
 #elif defined(BOARD_CUSTOM)
   #include "custom_board.h"
-#elif defined(BOARD_BTE)
-  #include "bte_board.h"
+#elif defined(BOARD_BTE_NRF51)
+  #include "bte_board_nRF51.h"
+#elif defined(BOARD_BTE_NRF52)
+  #include "bte_board_nRF52.h"
 #else
 #error "Board is not defined"
 
